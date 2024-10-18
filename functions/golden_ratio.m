@@ -10,7 +10,7 @@ function iter = golden_ratio(n)
     current_term = next_term;
     next_term = prev_term + current_term;
     prev_ratio = ratio;
-    ratio = current_term / prev_term
+    ratio = current_term / prev_term;
     iter += 1;
   end
 
